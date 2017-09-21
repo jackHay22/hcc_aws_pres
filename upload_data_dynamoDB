@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#upload some data to dynamoDB
+
+aws dynamodb batch-write-item \
+      --region us-east-2 \
+      --request-items file://<data_file>.json

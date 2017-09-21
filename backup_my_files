@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#example file backup to S3
+
+aws s3 cp ./<data_file>.json \
+            s3://<bucket_name>/

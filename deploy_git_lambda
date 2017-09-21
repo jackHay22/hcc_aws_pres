@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#git deploy
+
+zip gitReport gitReport.py
+aws lambda update-function-code \
+          --region us-east-1 \
+          --function-name gitData \
+          --zip-file fileb://gitReport.zip
+
+
+#change function timeout value (if api request takes longer than current time)
+
+#aws lambda update-function-configuration \
+#          --region us-east-1 \
+#         --function-name gitData \
+#         --timeout 90

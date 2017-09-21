@@ -1,0 +1,88 @@
+{
+    "HCC-simpledb": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "N": "12346"
+                    },
+                    "Name": {
+                        "S": "Chair"
+                    },
+                    "Total": {
+                        "N": "111"
+                    },
+                    "Dimensions": {
+                        "S": "8.5 x 11.0 x 0.5"
+                    },
+                    "Category": {
+                        "S": "Furniture"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "N": "25465"
+                    },
+                    "Name": {
+                        "S": "Table"
+                    },
+                    "Total": {
+                        "N": "141"
+                    },
+                    "Dimensions": {
+                        "S": "2.5 x 15.0 x 0.5"
+                    },
+                    "Category": {
+                        "S": "Furniture"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "N": "433466"
+                    },
+                    "Name": {
+                        "S": "Desk"
+                    },
+                    "Total": {
+                        "N": "13"
+                    },
+                    "Dimensions": {
+                        "S": "4.5 x 11.0 x 3.5"
+                    },
+                    "Category": {
+                        "S": "Furniture"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "N": "64363"
+                    },
+                    "Name": {
+                        "S": "Couch"
+                    },
+                    "Total": {
+                        "N": "58"
+                    },
+                    "Dimensions": {
+                        "S": "8.5 x 11.0 x 5.5"
+                    },
+                    "Category": {
+                        "S": "Furniture"
+                    }
+                }
+            }
+        }
+    ]
+}
